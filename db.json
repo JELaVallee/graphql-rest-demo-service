@@ -1,0 +1,18 @@
+{
+    "todos": [
+        { "id": 1, "description": "ToDo Item 1", "completed": false, "list_id": 101 },
+        { "id": 2, "description": "ToDo Item 2", "completed": false, "list_id": 101 },
+        { "id": 3, "description": "ToDo Item 3", "completed": false, "list_id": 101 },
+        { "id": 4, "description": "ToDo Item 4", "completed": false, "list_id": 102 },
+        { "id": 5, "description": "ToDo Item 5", "completed": false, "list_id": 102 },
+        { "id": 6, "description": "ToDo Item 6", "completed": false, "list_id": 102 },
+        { "id": 7, "description": "ToDo Item 7", "completed": false, "list_id": 103 },
+        { "id": 8, "description": "ToDo Item 8", "completed": false, "list_id": 103 },
+        { "id": 9, "description": "ToDo Item 9", "completed": false, "list_id": 103 }
+    ],
+    "lists": [
+        { "id": 101, "name": "List Name 1" },
+        { "id": 102, "name": "List Name 2" },
+        { "id": 103, "name": "List Name 3" }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "graphql-rest-demo-service",
+  "version": "1.0.0",
+  "description": "Dev server for standing up GraphQL and REST demo services.",
+  "main": "index.js",
+  "scripts": {
+    "run-rest": "./node_modules/.bin/json-server --watch db.json --p 3001",
+    "run-gql": "./node_modules/.bin/json-graphql-server db.json --p 3002"
+  },
+  "author": "jelavallee@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "json-graphql-server": "^2.3.1",
+    "json-server": "^0.17.0"
+  }
+}
